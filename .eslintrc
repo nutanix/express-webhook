@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "globals": {
+    "describe": true,
+    "it": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "jest": true,
+    "expect": true,
+    "xit": true,
+    "beforeAll": true,
+    "afterAll": true
+  }
+}

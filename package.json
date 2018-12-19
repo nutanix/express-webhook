@@ -1,0 +1,26 @@
+{
+  "name": "express-webhook",
+  "version": "1.0.0",
+  "description": "Express middleware which helps with bringing up express app with routes to subscribe to web-hook events.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint lib/**",
+    "test": "jest ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nutanix/express-webhook.git"
+  },
+  "keywords": [
+    "webhook",
+    "express"
+  ],
+  "author": "Shashank Meyar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nutanix/express-webhook/issues"
+  },
+  "homepage": "https://github.com/nutanix/express-webhook#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
