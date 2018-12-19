@@ -21,6 +21,22 @@
     "url": "https://github.com/nutanix/express-webhook/issues"
   },
   "homepage": "https://github.com/nutanix/express-webhook#readme",
-  "devDependencies": {},
-  "dependencies": {}
+  "peerDependencies": {
+    "express": "4.x"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "pg": "^7.7.1",
+    "pg-hstore": "^2.3.2",
+    "supertest": "^3.3.0"
+  },
+  "dependencies": {
+    "async-retry": "^1.2.3",
+    "body-parser": "^1.18.3",
+    "sequelize": "^4.42.0"
+  }
 }
