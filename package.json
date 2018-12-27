@@ -16,7 +16,7 @@
     "express"
   ],
   "author": "Shashank Meyar",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nutanix/express-webhook/issues"
   },
