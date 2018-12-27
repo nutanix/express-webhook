@@ -13,5 +13,9 @@
     "xit": true,
     "beforeAll": true,
     "afterAll": true
+  },
+  rules: {
+    "no-unused-expressions": "off",
+    "no-console": "off"
   }
 }
